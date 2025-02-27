@@ -18,7 +18,7 @@ app.use(helmet());
 app.use(morgan("dev"));
 app.use(
   cors({
-    origin: "https://linktree-client-nine.vercel.app/",
+    origin: "https://linktree-client-nine.vercel.app",
     credentials: true,
   })
 );
